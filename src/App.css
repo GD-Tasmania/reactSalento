@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -24,6 +24,117 @@
   color: white;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 20px;
+  background-image:url(https://www.eltiempo.com/files/article_main/uploads/2019/04/11/5caf274f793ec.jpeg);
+  
+}
+main{
+  width: 1000px;
+  background: linear-gradient(5deg, rgba(2, 253, 161, 0.928),rgba(255, 253, 253, 0.961));
+  margin: 0 auto;
+}
+header{
+  padding: 10px;
+}
+.logo{
+  width:30%;
+  float:left;
+}
+
+nav{
+  margin-top:30px;
+  width:50%;
+  float:right;
+}
+nav > a{
+  text-decoration: none;
+  background: black;
+  color: aqua;
+  padding: 25px;
+  border-radius: 50px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 30px 1px 1px 1px;
+}
+nav a:hover{
+  background: red
+}
+
+section{
+  padding: 10px;
+  margin: 1px 10px 5px 70px;
+}
+.logo img{
+  width: 250px;
+}
+.gente{
+  width: 50%;
+  float: right;
+  padding: 20px;
+  margin: 30px 40px 5px 1px;
+}
+.gente1{
+  width: 40%;
+  height: 350px;
+  float: left;
+  padding: 5px;
+  margin: 20px 1px 1px 1px;
+}
+.gente2{
+  width: 45%;
+  height: 260px;
+  float: right;
+  padding: 10px;
+  margin: 8px 18px 5px 1px;
+}
+.clear{
+  clear: both;
+}
+.texto1{
+  float: left;
+  width: 40%;
+  margin-top: 4%;
+  font-size: 23px;
+}
+.texto2{
+  width: 40%;
+  margin-top: 10%;
+  font-size: 22px;
+  margin: 50px 40px 80px 450px;
+}
+.texto3{
+  width: 50%;
+  font-size: 20px;
+  margin: 2px 40px 1px 20px;
+}
+.texto4{
+  width: 90%;
+  font-size: 20px;
+  margin: 20px 40px 10px 20px;
+}
+.salento{
+  color: #f00;
+  font-style: oblique;
+  font-size:74px;
+  margin: 30px 1px 1px 20px;
+}
+.salento1{
+  color: #f00;
+  font-size:30px;
+  margin: 20px 40px 1px 80px;
+}
+.salento2{
+  color: #f00;
+  font-size:30px;
+  margin: 1px 1px 20px 20px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -33,6 +144,10 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(1440deg);
   }
+}
+
+.titulo{
+  color: red;
 }
